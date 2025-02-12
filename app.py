@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
+from urllib.parse import quote as url_quote
+
 
 app = Flask(__name__)
 
